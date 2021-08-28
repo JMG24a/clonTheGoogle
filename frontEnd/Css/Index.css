@@ -14,12 +14,20 @@ nav ul{
     list-style: none;
     margin-top: 14px;
 }
-nav ul li{
+nav ul .list{
     margin-right: 16px;
     color: rgba(0,0,0,0.87);
     font-size: 11px;
 }
-nav ul li:hover{
+nav ul .border-icon{
+    margin-right: 16px;
+}
+nav ul .buttonHeaderSesion{
+    margin-right: 16px;
+    color: rgba(0,0,0,0.87);
+    font-size: 11px;
+}
+nav ul .list:hover{
     text-decoration: underline rgba(0,0,0,0.87);
 
 }
@@ -30,6 +38,9 @@ nav ul li .sesion{
     background-color:#1a73e8;
     color: white;
     letter-spacing: 0.2px;
+}
+nav ul li .sesion:hover{
+    background-color:#1a73e8e2;
 }
 nav ul li .sesion:hover{
     
@@ -88,6 +99,7 @@ input{
     width: 90%;
     height: 32px;
     border: none;
+    outline: none;
 }
 .microphone-icon{
     background-image: url('../Assets/microphone.png');
@@ -100,12 +112,15 @@ input{
 }
 section button{
     margin: 0 10px 20px;
-    padding: 10px 12px;
+    padding: 8px 12px;
     font-size: 10px;
     color: rgba(0,0,0,0.87);
     border: solid 1px #f8f9fa;
     border-radius: 2px;
     background-color: #f8f9fa;
+}
+section button:hover{
+    border: solid 1px #a1a3a5;
 }
 section p{
     font-size: 12px;
@@ -113,6 +128,7 @@ section p{
 }
 section p span{
     color: #1a0dab;
+    cursor: pointer;
 }
 footer{
     display: grid;
