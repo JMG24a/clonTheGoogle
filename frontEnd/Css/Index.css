@@ -118,6 +118,7 @@ section button{
     border: solid 1px #f8f9fa;
     border-radius: 2px;
     background-color: #f8f9fa;
+    cursor: pointer;
 }
 section button:hover{
     border: solid 1px #a1a3a5;
